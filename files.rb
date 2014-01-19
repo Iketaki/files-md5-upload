@@ -7,7 +7,7 @@ root = ARGV.shift || "/"
 File.open("md5.txt", "w") do |md5file|
   Find.find(root) do |path|
 
-    if path.start_with?("/dev") || path.start_with?("/Volumes")
+    if path.start_with?("/dev") || path.start_with?("/Volumes") || path.start_with?("/proc")
       Find.prune
     end
 

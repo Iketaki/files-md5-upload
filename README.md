@@ -20,4 +20,4 @@ part of "files" project
 ruby files.rb > /dev/null &
 ```
 
-隠しファイル読み取りのためには、sudoで実行してください。
+隠しファイル読み取りのためには、sudoで実行する必要があります（今回の実験では必要ありません）

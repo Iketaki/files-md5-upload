@@ -1,3 +1,8 @@
+#!/usr/bin/env ruby
+#
+# % sudo ruby files.rb /
+#
+
 require 'digest/md5'
 require 'find'
 
